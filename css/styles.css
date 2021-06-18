@@ -15,7 +15,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	/* justify-content: center; */
 	height: 100vh;
 	width: auto;
 }
@@ -28,8 +28,8 @@ body {
 	border-radius: 20px;
 	width: 272px;
 	height: 490px;
-	padding-top: 110px;
-	margin-top: 65px;
+	padding-top: 100px;
+	margin-top: 140px;
 	position: relative;
 }
 
@@ -39,6 +39,8 @@ body {
 	height: auto;
 	position: absolute;
 	z-index: 1;
+	display: flex;
+	justify-content: center;
 }
 
 #graphic {
@@ -46,7 +48,7 @@ body {
 }
 
 #shadow {
-	top: 0.5em;
+	top: 0.2em;
 }
 
 h1 {
@@ -54,10 +56,16 @@ h1 {
 }
 
 button {
+	display: flex;
+	justify-content: space-between;
+	color: hsl(237, 12%, 33%);
 	border: none;
 	background-color: inherit;
 	cursor: pointer;
+	width: 90%;
 	padding-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 12px;
 	border-bottom: solid 1px rgb(0, 0, 0, 0.2);
 }
 
