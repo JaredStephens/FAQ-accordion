@@ -1,5 +1,49 @@
 * {
+	font-family: "Kumbh Sans", sans-serif;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+	height: 100vh;
+	width: auto;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: auto;
+}
+
+.widget-container {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	border-radius: 20px;
+	width: 272px;
+	height: 490px;
+	padding-top: 110px;
+	margin-top: 65px;
+	position: relative;
+}
+
+#graphic,
+#shadow {
+	width: 224px;
+	height: auto;
+	position: absolute;
+	z-index: 1;
+}
+
+#graphic {
+	top: 2.2em;
+}
+
+#shadow {
+	top: 0.5em;
 }
